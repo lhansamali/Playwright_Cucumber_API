@@ -1,0 +1,24 @@
+{
+  "name": "playwright-api-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require src/steps/*.ts --require src/support/*.ts src/features/*.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@types/chai": "^5.2.2",
+    "@types/node": "^24.1.0",
+    "chai": "^5.2.1",
+    "playwright": "^1.54.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "form-data": "^4.0.4"
+  }
+}
