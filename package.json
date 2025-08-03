@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "cucumber-js --require-module ts-node/register --require src/steps/*.ts --require src/support/*.ts src/features/*.feature"
-  },
+ "scripts": {
+  "test": "cucumber-js --require-module ts-node/register --require src/steps/**/*.ts --require src/support/**/*.ts src/features/*.feature --format json:reports/cucumber_report.json",
+  "report": "ts-node generate-html-report.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "@types/chai": "^5.2.2",
     "@types/node": "^24.1.0",
     "chai": "^5.2.1",
+    "cucumber-html-reporter": "^7.2.0",
     "playwright": "^1.54.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
