@@ -1,4 +1,6 @@
 -Generate the test as in the test steps
 -Add new scenarios to relavant features file and update properties.ts and steps.ts files accordingly
--Run the all the tests in features
+-Do not add steps if those steps are existing in the another classes
+-If the steps are common to any scenario steps add it to commonSteps.ts
+-Run the all the tests in features folder
 -After the execution,  generate a detailed report and open in the browser

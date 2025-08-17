@@ -15,7 +15,7 @@ Feature: User Login
         Then The response code should be 404
         Then The response message should be "User not found!"
 
-    Scenario: ' DELETE To Verify Login'
+    Scenario: 'DELETE To Verify Login'
         When I send delete request to "LOGIN"
         Then The response code should be 405
         Then The response message should be "This request method is not supported."

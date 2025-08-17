@@ -7,6 +7,7 @@ export const API_ENDPOINTS = {
    LOGIN: BASE_URL+'/verifyLogin',
    CREATE_ACCOUNT: BASE_URL+'/createAccount',
    DELETE_ACCOUNT: BASE_URL+'/deleteAccount',
+   UPDATE_ACCOUNT: BASE_URL+'/updateAccount',
 }
 
 export const USER_LOGIN_DETAILS = {
