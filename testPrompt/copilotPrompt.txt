@@ -1,0 +1,4 @@
+-Generate the test as in the test steps
+-Add new scenarios to relavant features file and update properties.ts and steps.ts files accordingly
+-Run the all the tests in features
+-After the execution,  generate a detailed report and open in the browser
